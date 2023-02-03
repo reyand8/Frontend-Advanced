@@ -17,7 +17,7 @@ switch (operator) {
         result = first_number / second_number;
         break;
     default:
-        alert('Please choose the correct operator')
+        alert('Please choose the correct operator');
 }
 
 alert(String(`${first_number} ${operator} ${second_number} = ${result}`));
