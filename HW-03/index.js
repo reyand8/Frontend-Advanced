@@ -2,19 +2,21 @@ const operator = prompt('Select an operator: *, +, -, /')
 const first_number = getNumber('A')
 const second_number = getNumber('B')
 const result = calculation(operator, first_number, second_number)
+const symbols = ['*', '+', '-', '/']
 
-symbols = ['*', '+', '-', '/']
+postResult(operator, first_number, second_number, result);
+
+function postResult(operator, first_number, second_number, result) {
+    if  (symbols.includes(operator) && (Number.isNaN(first_number && second_number ) === false)) {
+        alert(`${first_number} ${operator} ${second_number} = ${result}`);
+    }
+    else {
+        alert('The data is not correct');
+    }
+}
 
 function getNumber(numb){
     return Number(prompt(`Enter operand ${numb}`));
-}
-
-if  (symbols.includes(operator) && (Number.isNaN(first_number && second_number ) === false)) {
-    calculation();
-    postResult(operator, first_number, second_number, result);
-}
-else {
-    alert('The data is not correct');
 }
 
 function calculation(operator, first_number, second_number) {
@@ -44,10 +46,6 @@ function sub(first_number, second_number) {
 
 function div(first_number, second_number) {
     return first_number / second_number;
-}
-
-function postResult(operator, first_number, second_number, result) {
-    alert(`${first_number} ${operator} ${second_number} = ${result}`);
 }
 
 
