@@ -22,7 +22,7 @@ function getCorrectCount(count_numbers) {
 function getCountNumbers() {
     let count_n
     do {
-        count_n = prompt(`Enter quantity`);
+        count_n = prompt(`Enter the quantity`);
     } while (!getCorrectCount(count_n))
     return count_n
 }
@@ -34,7 +34,7 @@ function getCorrectNumber(count_n) {
 function getInputNumber(n) {
     let count_n
     do {
-        count_n = prompt(`Enter number ${n}`)
+        count_n = prompt(`Enter the number ${n}`)
     } while (!getCorrectNumber(count_n))
     return Number(count_n)
 }
