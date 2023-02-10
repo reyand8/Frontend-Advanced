@@ -1,7 +1,7 @@
 const operator = prompt('Select an operator: *, +, -, /')
 const first_number = getNumber('A')
 const second_number = getNumber('B')
-const result = calculation(operator, first_number, second_number)
+const result = calculate(operator, first_number, second_number)
 const symbols = ['*', '+', '-', '/']
 
 postResult(operator, first_number, second_number, result);
@@ -19,7 +19,7 @@ function getNumber(numb){
     return Number(prompt(`Enter operand ${numb}`));
 }
 
-function calculation(operator, first_number, second_number) {
+function calculate(operator, first_number, second_number) {
     switch (operator) {
         case '*':
             return mul(first_number, second_number);
