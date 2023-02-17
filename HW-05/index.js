@@ -24,9 +24,9 @@ console.log(averageStudentMark(10));
 console.log(averageGroupMark(students));
 
 function averageStudentMark(student_id){
-    const get_by_id = students.filter((student) => student.id === student_id)
-    const result = get_by_id[0].marks.reduce((accumulator, current) => accumulator + current)
-    return result / get_by_id[0].marks.length
+    const getById = students.filter((student) => student.id === student_id)
+    const result = getById[0].marks.reduce((accumulator, current) => accumulator + current)
+    return result / getById[0].marks.length
 }
 
 function averageGroupMark(your_array){
