@@ -7,4 +7,3 @@ function pow(x, n) {
         return x * pow(x, n - 1);
     }
 }
-
