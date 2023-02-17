@@ -1,4 +1,4 @@
-console.log(pow(2, 2)) // 3 + 2 + 1
+console.log(pow(2, 2))
 
 function pow(x, n) {
     if (n === 1) {
