@@ -57,12 +57,12 @@ const QUESTIONS = [
         type: 'confirm',
     },
 ];
-
+let userResult = 0
 askQuestion(QUESTIONS)
+showResult(userResult)
 
 
 function askQuestion(QUESTIONS) {
-    let userResult = 0
     for (const i of QUESTIONS){
         if (i.type === 'prompt') {
             let userAnswer = prompt(`${i.question}`)
@@ -73,15 +73,18 @@ function askQuestion(QUESTIONS) {
             userResult = calculateResult(userAnswer, i.answer, userResult)
         }
     }
-    return alert(`Your result is ${userResult} points`)
+    return userResult
 }
 
 
 function calculateResult(userAnswer, answer, userResult) {
     if (userAnswer === answer) {
         userResult += 10
-    }else {
-        userResult += 0
     }
     return userResult
+}
+
+
+function showResult(userResult) {
+    alert(`Your result is ${userResult} points`)
 }
