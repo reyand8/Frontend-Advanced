@@ -1,3 +1,4 @@
+'use strict'
 const operator = prompt('Select an operator: *, +, -, /')
 const first_number = Number(prompt('Enter operand A'))
 const second_number = Number(prompt('Enter operand B'))
