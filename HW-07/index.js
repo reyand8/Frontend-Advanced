@@ -1,3 +1,5 @@
+'use strict'
+
 const QUESTIONS = [
     {
         question: 'How Many States are in the United States?',
