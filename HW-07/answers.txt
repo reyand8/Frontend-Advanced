@@ -1,0 +1,22 @@
+How Many States are in the United States? Answer: '50'
+
+Is Kyiv the capital of Ukraine? Answer: true
+
+How many regions are in Ukraine? Answer: '27'
+
+When was Kyiv baptized? Answer: '988'
+
+Did Volodymyr baptize Kyiv? Answer: true
+
+How many Autonomous Republics are there in Ukraine? Answer: '1'
+
+How do you rate the cleanliness of Kyiv from 1 to 10? Answer: '10'
+
+What year did the war in Ukraine start? Ответ: '2014'
+
+Is Odessa a beautiful city? Answer: true
+
+Was Uzhgorod the capital of Ukraine? Ответ: false
+
+Was Odessa the capital of Ukraine? Ответ: false
+
