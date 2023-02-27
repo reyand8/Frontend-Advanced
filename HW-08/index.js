@@ -19,7 +19,7 @@ calculator.reset();
 console.log(calculator.get())
 
 
-function createCalculator(base = 0) {
+function createCalculator(base) {
     let result = base
 
     return {
