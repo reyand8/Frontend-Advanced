@@ -1,6 +1,6 @@
 'use strict'
 
-const calculator = new CreateCalculator(0);
+const calculator = new CreateCalculator(100);
 
 calculator.add(10);
 calculator.add(10);
