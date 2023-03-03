@@ -39,6 +39,7 @@ Hamburger.WITH_CHEESE = {
     price: 10,
     calories: 20,
 }
+
 Hamburger.WITH_SALAD = {
     price: 20,
     calories: 5,
