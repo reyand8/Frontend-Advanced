@@ -1,13 +1,11 @@
 'use strict'
 
 function Hamburger(hamburger_size) {
-    this.topping_name = []
     this.price = hamburger_size.price
     this.calories = hamburger_size.calories
 }
 
 Hamburger.prototype.addTopping = function (topping) {
-    this.topping_name.push(topping.name)
     this.price += topping.price
     this.calories += topping.calories
 }
