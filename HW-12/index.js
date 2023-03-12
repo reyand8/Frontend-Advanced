@@ -11,9 +11,7 @@ function onBtnClick () {
     if (!isInputValid(data)) {
         return alert('Invalid data')
     }
-    const li = document.createElement('li')
-    li.textContent = input.value
-    ul.append(li)
+    renderData(data)
     input.value = ''
 }
 
@@ -23,4 +21,10 @@ function getInputData () {
 
 function isInputValid (data) {
     return data !== ''
+}
+
+function renderData (data) {
+    const li = document.createElement('li')
+    li.textContent = data
+    ul.append(li)
 }
